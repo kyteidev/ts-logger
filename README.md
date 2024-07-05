@@ -7,7 +7,9 @@ This logger was originally made for Tauri apps, but you can modify the code to m
 
 ## Usage
 
-```logger(isError, fileName, message)```
+```typescript
+logger(isError, fileName, message);
+```
 
 - isError: boolean - whether the message is an error
 - fileName: name of file where it's logged
